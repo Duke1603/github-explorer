@@ -1,6 +1,6 @@
 export function RepositoryItem(props) {
     return(
-        <li>
+    <li>
         <strong>{props.repository.name ?? 'Default'}</strong>
         <p>{props.repository.description}</p>
 
